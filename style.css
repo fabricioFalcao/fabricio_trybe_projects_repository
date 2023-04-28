@@ -47,3 +47,14 @@ h2{
   width: 80%;
 
 }
+
+aside {
+    width: 200px;
+position: fixed;
+margin-left: 35%;
+top: 150px;
+text-align: justify;
+border: 5px solid rgb(19, 32, 155);
+padding: 5px 15px;
+
+}
