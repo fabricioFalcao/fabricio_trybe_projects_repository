@@ -1,8 +1,9 @@
-body{
+body {
   background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
+  z-index: 2;
   position: fixed;
   top: 0;
   width: 80%;
@@ -18,13 +19,13 @@ body{
 }
 
 #minha_foto {
- margin-top: 105px;
- height: 300px;
- border: 5px solid rgb(19, 32, 155);
+  margin-top: 105px;
+  height: 300px;
+  border: 5px solid rgb(19, 32, 155);
 
 }
 
-h2{
+h2 {
   color: rgb(19, 32, 155);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -51,11 +52,16 @@ h2{
 
 aside {
     width: 200px;
-position: fixed;
-margin-left: 35%;
-top: 155px;
-text-align: justify;
-border: 5px solid rgb(19, 32, 155);
-padding: 5px 15px;
+  position: absolute;
+  margin-left: 35%;
+  top: 155px;
+  text-align: justify;
+  border: 5px solid rgb(19, 32, 155);
+  padding: 5px 15px;
+}
 
+table, th, td {
+  border:1px solid black;
+  width: 300px;
+  text-align: center;
 }
