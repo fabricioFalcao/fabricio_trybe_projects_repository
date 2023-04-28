@@ -51,9 +51,7 @@ h2 {
 
 }
 
-table,
-th,
-td {
+table , th , td {
   border: 1px solid black;
   width: 300px;
   text-align: center;
@@ -69,10 +67,9 @@ aside {
   border: 5px solid rgb(19, 32, 155);
   padding: 5px 15px;
   float: right;
- }
+}
 
-.lado-esquerdo, .lado-direito {
-  /* float:left; */
+.lado-esquerdo , .lado-direito {
   width: 35%;
   display: inline-block;
 }
