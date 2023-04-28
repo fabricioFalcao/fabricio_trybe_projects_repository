@@ -51,20 +51,28 @@ h2 {
 
 }
 
-aside {
-    width: 200px;
-  position: absolute;
-  margin-left: 35%;
-  top: 155px;
-  text-align: justify;
-  border: 5px solid rgb(19, 32, 155);
-  padding: 5px 15px;
-}
-
-table, th, td {
-  border:1px solid black;
+table,
+th,
+td {
+  border: 1px solid black;
   width: 300px;
   text-align: center;
   font-size: 1.1em;
+}
 
+aside {
+  width: 30%;
+  position: absolute;
+  margin-left: 8%;
+  top: 1075px;
+  text-align: justify;
+  border: 5px solid rgb(19, 32, 155);
+  padding: 5px 15px;
+  float: right;
+ }
+
+.lado-esquerdo, .lado-direito {
+  /* float:left; */
+  width: 35%;
+  display: inline-block;
 }
