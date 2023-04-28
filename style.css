@@ -37,3 +37,13 @@ h2{
   font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
 }
+
+#rodape {
+  background-color: rgb(19, 32, 155);
+  height: 40px;
+  color: whitesmoke;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+
+}
