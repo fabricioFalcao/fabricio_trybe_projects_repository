@@ -1,3 +1,22 @@
+/* A página deve possuir uma cor de fundo rgb(253, 251, 251) */
+
 body{
   background-color: rgb(253, 251, 251);
+}
+
+/* Essa barra superior deve possuir o id igual a cabecalho e deve ser fixa no topo da página com a propriedade top tendo 0. O título deve estar dentro da barra e ser um elemento h1 com id igual a titulo. */
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 80%;
+  height: 100px;
+  background-color: rgb(19, 32, 155);
+}
+
+#titulo {
+  text-align: center;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
 }
